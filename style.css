@@ -4,6 +4,7 @@ body{
     line-height: 1.5;
     background-color:grey;
     color:#272537;
+    font-family:'Roboto Condensed', sans-serif ;
     }
 header{
     background-color: rgb(161, 157, 157);
@@ -12,14 +13,23 @@ header{
 h1{
     text-align:center
 }
+blockquote, .font_span{
+    font-family:'Roboto Mono', monospace;
+    font-weight:700;
+}
+img{
+    box-shadow: 2px 5px 10px  rgb(226, 184, 184);
+    border-radius:5%;
+}
 .container{
     width:80%;
     padding:5px;
-    border:2px solid black;
+    border:2px solid #606977;
     background-color:#606977;
     border-radius:.8%;
     margin: auto;
     overflow: hidden;
+    box-shadow: 2px 5px 10px  rgb(250, 222, 222);
 }
 section{
     background-color:#D1dcE2;
@@ -27,6 +37,7 @@ section{
 #section-one, #section-two, #section-three{
     display:flex;
     margin-top:5px;
+    
 }
 #section-one{
     min-height: 300px;
@@ -38,13 +49,13 @@ section{
     float: right;
 }
 #section-two{
-    border:3px solid blue;
+    
     text-align:center;
     align-content:space-around;
     
 }
 #section-three{
-    border:3px solid purple;
+    
     justify-content: space-around;
     text-align: center;
 }
