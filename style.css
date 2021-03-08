@@ -2,14 +2,14 @@ body{
     padding:0;
     margin:0;
     line-height: 1.5;
-    background-color:grey;
+    background-color:black;
     color:#272537;
     font-family:'Roboto Condensed', sans-serif ;
     }
 header{
     padding-top:10px;
     background-color: rgb(161, 157, 157);
-    height: 75vh;
+    height: 70vh;
 }
 #header-img{
     height:30%; 
@@ -49,6 +49,7 @@ section{
 #section-one, #section-two, #section-three{
     display:flex;
     margin-top:5px;
+   
     
 }
 #section-one{
