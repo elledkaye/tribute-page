@@ -7,8 +7,20 @@ body{
     font-family:'Roboto Condensed', sans-serif ;
     }
 header{
+    padding-top:10px;
     background-color: rgb(161, 157, 157);
-    height: 50vh;
+    height: 75vh;
+}
+#header-img{
+    height:30%; 
+    width: 30%;
+    margin-left:35%;
+}
+#header-link{
+ text-align: center;
+}
+blockquote{
+   text-align: center;
 }
 h1{
     text-align:center
@@ -76,14 +88,20 @@ footer{
 /*Media Queries*/ 
 @media(max-width:768px){
     header,
-    #section-two h1,
     #section-two ,#section-three
     article#main-col,
-    aside#sideBar{
+    aside{
        float:none;
        text-align:center;
        width:100%;
-   }
+   } 
+
+   #header-img{
+       margin-left:30%;
+       margin-right:35%;
+   } 
+   
+   
 
 
 }
