@@ -3,11 +3,10 @@ body{
     margin:0;
     line-height: 1.5;
     color:#272537;
-    font-family:'Roboto Condensed', sans-serif ;
+   
     }
 header{
     padding-top:10px;
-    background-color: rgb(161, 157, 157);
     border-radius:.8%;
     
 }
@@ -23,7 +22,9 @@ blockquote{
    text-align: center;
 }
 h1{
-    text-align:center
+    text-align:center;
+    font-family: 'Open Sans';
+    font-weight:800;
 }
 blockquote, .font_span{
     font-family:'Roboto Mono', monospace;
@@ -33,60 +34,73 @@ img{
     box-shadow: 2px 5px 10px  rgb(226, 184, 184);
     border-radius:5%;
 }
+.nav-item{
+    background-color:rgb(169, 233, 171);
+}
+.nav-link{
+    font-family:'Roboto Mono';
+    font-weight:400;
+}
 .container{
     width:80%;
     padding:5px;
-    border:2px solid #606977;
-    background-color:#606977;
     border-radius:.8%;
     margin: auto;
     overflow: hidden;
-    box-shadow: 2px 5px 10px  rgb(250, 222, 222);
+    
 }
-section{
-    background-color:#D1dcE2;
-}
-#section-one, #section-two, #section-three{
+
+#section-one, #section-two, #section-three, #section-four{
     display:flex;
     margin-top:5px;
-   
-    
+    font-family:'Open Sans', sans-serif ;   
 }
 #section-one{
     min-height: 300px;
+    box-shadow: 2px 5px 10px  rgb(250, 222, 222);
 }
 #section-one h2{
     text-align:center;
 }
 #aside-one{
     float: right;
-    margin-right:20%;
+    margin-right:30%;
 }
-#section-two{
-    
+#img_braveNP{
+    margin-left:30%;
+}
+#section-two{   
     text-align:center;
     align-content:space-around;
+    box-shadow: 2px 5px 10px  rgb(250, 222, 222);
+    background-color: teal;
     
 }
 #section-three{
     justify-content: space-around;
     text-align: center;
-   
+    border:2px solid #a6badb;
+    background-color:#9ab7e6;
+  
+}
+#section-four{
+    justify-content: space-around;
+    text-align: center; 
+    border:2px solid #a6badb;
+    background-color:#9ab7e6;
 }
 ul{
 list-style: none;
 }
 li a{
     text-decoration: none;
-    background-color:white;
-  font-size: larger;
-    color:navy;
+    font-size: larger;
+    color:black;
 }
 
 footer{
     text-align:center;
     margin-top:5px;
-
 }
 
 /*Media Queries*/ 
