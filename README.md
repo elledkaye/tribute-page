@@ -6,3 +6,6 @@ Purpose of this excersise was to practice basic HTML and CSS skills, and to make
 The tribute page is about: 
 
 I decided to choose her for my tribute page because I am all for girls to get into STEM w 
+
+Next task: 
+Finish up fully
